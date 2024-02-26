@@ -1,0 +1,106 @@
+.header {
+    padding: 40px;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.header h1,
+p {
+    text-align: center;
+}
+
+.wheel {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.center-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 30px solid white;
+    position: absolute;
+    top: 50%;
+    right: -220%;
+    transform: translateY(-50%);
+}
+
+textarea {
+    background-color: rgba(20, 20, 20, 0.2);
+    caret-color: #fff;
+    resize: none;
+    color: black;
+}
+
+.inputArea {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+td {
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+#grupoT {
+    color: black;
+}
+
+#crearGrupoBtn {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#crearGrupoBtn:hover {
+    background-color: #218838;
+}
+
+#click {
+    height: 100px;
+    border-radius: 100%;
+}
+
+.btn-ir-a {
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-ir-a:hover {
+    background-color: #218838;
+}
+
+.btn-ir-a img {
+    vertical-align: middle;
+}
+
+.btn-ir-a span {
+    margin-right: 5px;
+}
+
+.btn-ir-a i {
+    margin-left: 5px;
+}
